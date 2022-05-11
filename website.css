@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body{
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-right: 40px ;
+  margin-left: 40px;
+}
+
+header{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.logo img{
+   
+    height: 20vh;
+    width: 20vh;
+}
+
+.enter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.enter span{
+    font-size: 80px;
+   
+}
+.enter p{
+    font-size: 20px;
+   
+}
+.icons{
+    margin: 7vh;
+}
+.cards span{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.redunder{
+    color: brown;
+    text-decoration: underline;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.home img{
+    height: 800px ;
+    width: 100%;
+}
+.scrolist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.storby{
+    display: flex;
+    flex-direction: row;
+   
+    margin-left: -10px;
+}
+.storby p{
+    font-size: 20px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+  
+}
+.scrolist p{
+    padding: 15px;
+
+}
+.items p{
+    font-size: 20px;
+}
+
+.clotheshow{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.clotheshow img{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 500px;
+    height: 700px;
+    box-sizing: border-box;
+   
+    
+}
+.firstshow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.secondshow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:40px;
+}
+.arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 50px;
+   
+}
+.tendance{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin-top: 50px;
+   
+    
+}
+.tendimg{
+    width: 60%;
+    
+}
+
+.wordt p{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.whyme{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rond{
+    background-color: whitesmoke;
+    border-radius: 190px;
+    width: 130px;
+    height: 130px;
+    box-shadow: 3px 3px  gainsboro;
+   
+    
+}
+.rond p{
+    color: brown;
+    font-weight: bolder;
+    width: 130px;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+.whymes{
+    text-align: center;
+}
+.cardt{
+    background-color: whitesmoke;
+    width: 280px;
+    height: 200px;
+    margin-left: 20PX;
+    margin-right: 20PX;
+    box-shadow: 3px 3px 0 gainsboro;
+}
+.temoignages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 300px;
+    margin-top: 30px;
+}
+.temoignages h1{
+    text-align: center;
+}
+.cardts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.cardimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    height: 150px;
+    margin-left: -20PX;
+    box-shadow: 3px 3px 0 gainsboro;
+    
+}
+.cardimg img{
+    width: 80px;
+    height: 100px;
+    padding-left: 1px;
+    border-radius: 5px;
+   
+}
+.starc{
+    color: red;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.star{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.starb{
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.cardimg p{
+    margin-left: 10px;
+}
+.map{
+    margin-top: 25vh;
+    height: 400px;
+   
+    text-align: center;
+    padding: auto;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.blogcd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blog h1{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: xx-large;
+}
+.april{
+    width: 350px;
+    height: 490px;
+    background-image: url("logo/image\ 16.png");
+    background-position: center;
+   
+}
+.aprilvh{
+    width: 350px;
+    height: 490px;
+    background-image: url("logo/image\ 18.png");
+    background-position: center;
+}
+.march{
+    width: 350px;
+    height: 490px;
+    background-image: url("logo/image\ 17.png");
+    background-position: center;
+}
+.carddate{
+    width: 50px;
+    height: 60px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 15px 0px ;
+    text-align: center;
+    padding-top: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.april h3{
+   text-align: center;
+   margin-top: 150px;
+   color: white;
+   font-size: xx-large;
+   font-weight: bolder;
+}
+.aprilvh h3{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+
+ }
+ .march h3{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+ }
+ .partenership{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     margin-top: 90px;
+ }
+
+ .partener{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+ }
+ .partener img{
+     padding: 20px;
+     height: 150px;
+     margin-top: 50px;
+ }
+ h1{
+     text-align: center;
+     text-transform: uppercase;
+     font-size: xx-large;
+ }
+
+ footer{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     background-color: rgb(161, 158, 158);
+     padding-right: 20px;
+     padding-left: 20px;
+     margin-top: 80px;
+     
+ }
+
+ .haut{
+     display: flex ;
+     flex-direction: row;
+     justify-content: space-between;
+    
+ }
+ .haut h6{
+     font-size: large;
+ }
+ .haut h5{
+    font-size: x-large;
+}
+.logconer{
+    margin-top: 45px;
+}
+
+.bas{
+    align-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.socialmedia i{
+    font-size: 50px;
+    margin: 0.5rem;
+    color: rgb(152, 73, 12);
+  
+}
