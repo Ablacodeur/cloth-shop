@@ -360,7 +360,9 @@ form h4{
 .cardt{
     animation-name: fadeIn;
     animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
+
 
 
 .starc{
@@ -621,6 +623,11 @@ form h4{
     color: orangered;
    
 }
+.items a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 
 @media all and  (max-width: 1280px){
   
@@ -642,7 +649,317 @@ nav{
    transform: rotate(-90deg);
    position: absolute;
    left: -280px;
-   bottom: 120px;
+   bottom: -15px;
   
+}
+@media screen and (max-width: 1440px) { 
+     nav{
+         bottom: -20px;
+         left: -210px;
+     }
+     nav a{
+        font-size: 18px;left: -150;
+     }
+     .secondshow{
+         margin-top: 35vh;
+     }
+}
+@media screen and (max-width: 1240px){
+    body{
+       
+    }
+    .search span{
+        width: 100px;
+        font-size: 30px;
+        padding: 0px;
+    }
+    .search h3{
+        font-size: 20px;
+    }
+    
+    .search button{
+    width: 100px;
+   }
+   .enter{
+       width: 55%;
+   }
+   .storby{
+       width: 60%;
+       align-items: center;
+   }
+   .drop button{
+       font-size: 15px;
+       padding: 2px;
+   }
+   .items p{
+       font-size: 15px;
+       align-items: center;
+       margin-top: 30px;
+   }
+   nav{
+    bottom: -60px;
+    left: -210px;
+}
+.whyme{
+    align-items: center;
+}
+.whyme p{
+    font-size: 15px;
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+.cardt{
+    width: 150px;
+}
+
+.cardt h5{
+  
+    font-size: 15px;
+}
+
+.cardimg{
+    height: 100px;
+    width: 200px;
+    
+}
+
+.cardimg img{
+    width: 50px;
+  
+}
+.starc{
+   
+    margin-bottom: 10px;
+    
+}
+.star{
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.starb{
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.starc span{
+    font-size: 20px;
+    padding: 2px;
+}
+.starb span{
+    font-size: 20px;
+}
+.star span{
+    font-size: 20px;
+}
+.cardimg p{
+    font-size: 15px;
+}
+.partener{
+    align-items: center;
+    
+}
+.partener img{
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+}
+.haut{
+    padding: 10px;
+}
+.haut input{
+    width: 150px;
+    height: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.haut button{
+    width: 170px;
+    margin-left: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+}
+@media screen and (max-width: 768px){
+    body{
+        background-image: url("logo/haoran-qo-sT5YFEox8TE-unsplash\ 1.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: 100%;
+        color: white;
+    }
+    .imghome2{
+        display: none;
+        
+    }
+    .imghome1{
+        opacity: 0.3;
+        width: auto;
+        height: 800px;
+    }
+
+    .storby{
+        width: 80%;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+       
+    }
+    .drop button{
+        font-size: 15px;
+        padding: 3px;
+        font-weight: bold;
+        background: none;
+        color: white;
+    }
+    .items {
+        display: none;
+    }
+    nav{
+     bottom: -180px;
+     left: -210px;
+ }
+ nav a{
+     background-color: white;
+     opacity: 1;
+ }
+ .image img{
+     height: 300px;
+ }
+ .secondshow{
+     margin-top: -20px;
+ }
+ .wordt{
+     opacity: 0.3;
+     align-items: center;
+     width: 100%;
+ }
+ .tendimg{
+     display: none;
+ }
+.cardt,.cardimg{
+    background-color: black;
+    box-shadow: none;
+    
+}
+.cardt{
+    width: 150px;
+}
+.cardimg{
+    width: 190px ;
+}
+.april,.aprilvh,.march{
+    width: 200px; 
+   
+}
+.april h3,.aprilvh h3,.march h3{
+    font-size: 30px; 
+   
+}
+
+}
+
+
+@media screen and (max-width: 428px){
+    body{
+        background-image: url("logo/haoran-qo-sT5YFEox8TE-unsplash\ 1.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: 100%;
+        color: white;
+    }
+    .imghome2{
+        display: none;
+        
+    }
+    .imghome1{
+        opacity: 0.3;
+        width: auto;
+        height: 600px;
+    }
+
+    .storby{
+        width: 100%;
+        align-items: center;
+        margin-top: 250px;
+        margin-bottom: 20px;
+       
+    }
+    .drop button{
+        font-size: 15px;
+        padding: 20px;
+        margin: 10px;
+        font-weight: bold;
+        background: none;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .items {
+        display: none;
+    }
+    nav{
+     bottom: -180px;
+     left: -210px;
+ }
+ nav a{
+     background-color: white;
+     opacity: 1;
+ }
+ .image img{
+     height: 500px;
+ }
+ .secondshow{
+     margin-top: -20px;
+ }
+ .wordt{
+     opacity: 0.3;
+     align-items: center;
+     width: 100%;
+ }
+ .tendimg{
+     display: none;
+ }
+.cardt,.cardimg{
+    background-color: black;
+    box-shadow: none;
+    
+}
+.cardt{
+    width: 150px;
+}
+.cardimg{
+    width: 190px ;
+}
+.april,.aprilvh,.march{
+    width: 200px; 
+   
+}
+.april h3,.aprilvh h3,.march h3{
+    font-size: 30px; 
+   
+}
+.firstshow{
+    flex-direction: column;
+    
+}
+.image{
+    margin-left: 170px;
+}
+.secondshow{
+    flex-direction: column;
+}
+.firstshow img{
+    margin-top: 250px;
+
+}
+
 }
 
