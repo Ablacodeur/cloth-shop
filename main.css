@@ -132,7 +132,7 @@ form h4{
     width: 90%;
 }
 .home img{
-    height: 800px ;
+    height: 1000px ;
     width: 100%;
 }
 .imghome1{
@@ -629,9 +629,6 @@ form h4{
     cursor: pointer;
 }
 
-@media all and  (max-width: 1280px){
-  
-}
 
 
 nav a{
@@ -648,22 +645,11 @@ nav a{
 nav{
    transform: rotate(-90deg);
    position: absolute;
-   left: -280px;
-   bottom: -15px;
+   left: -250px;
+   bottom: 300px;
   
 }
-@media screen and (max-width: 1440px) { 
-     nav{
-         bottom: -20px;
-         left: -210px;
-     }
-     nav a{
-        font-size: 18px;left: -150;
-     }
-     .secondshow{
-         margin-top: 35vh;
-     }
-}
+
 @media screen and (max-width: 1240px){
    
     .search span{
@@ -695,7 +681,7 @@ nav{
        margin-top: 30px;
    }
    nav{
-    bottom: -60px;
+    bottom: 180px;
     left: -210px;
 }
 .whyme{
