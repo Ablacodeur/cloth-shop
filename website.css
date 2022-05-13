@@ -94,12 +94,17 @@ form h4{
 
 }
 .search p{
-    width: 150px;
+    width: 200px;
     background-color: whitesmoke;
     border: 1 solid whitesmoke;
     border-radius: 5px;
     padding: 8px;
+    text-align: center;
 }
+.search button:hover{
+    cursor: pointer;
+    color: rgb(211, 111, 75);
+ }
 
 .search button:focus + p{
     opacity: 1;
@@ -177,7 +182,7 @@ form h4{
     font-size: 20px;
 }
 
-.clotheshow{
+#clotheshow{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -203,8 +208,8 @@ form h4{
     width: 350px;
     height:600px;
     transform-style: preserve-3d;
-    transition: all 1s ease;
-    
+    transition: none 1s ease-in;
+ 
 }
 .image img{
     width: 100%;
@@ -228,12 +233,17 @@ form h4{
 }
 .image:hover{
     transform: rotateY(190deg);
+    zoom: 1;
+    
 }
 .image img{
     width: 100%;
 }
+.image P{
+    font-size: 18px;
+}
 
-.tendance{
+#tendance{
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
@@ -258,7 +268,8 @@ form h4{
 .cards{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 .rond{
     background-color: whitesmoke;
@@ -267,7 +278,6 @@ form h4{
     height: 130px;
     box-shadow: 3px 3px  gainsboro;
    
-    
 }
 .rond span{
     color: brown;
@@ -282,8 +292,11 @@ form h4{
     margin-top: -5px;
 }
 .card p{
-    font-size: large;
+    font-size: 30px;
+    text-align: center;
+    margin-left: -40px;
 }
+
 .whymes{
     text-align: center;
 }
@@ -302,9 +315,9 @@ form h4{
 }
 .cardt h5{
     padding-left: 10px;
-    font-size: large;
+    font-size: 20px;
 }
-.temoignages{
+#temoignages{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -319,6 +332,7 @@ form h4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 30px;
     
     
 }
@@ -353,6 +367,7 @@ form h4{
     color: red;
     margin-bottom: 20px;
     margin-top: 10px;
+    
 }
 .star{
     display: flex;
@@ -364,27 +379,39 @@ form h4{
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
+.starc span{
+    font-size: 40px;
+    padding: 3px;
+}
+.starb span{
+    font-size: 40px;
+}
+.star span{
+    font-size: 40px;
+}
 .cardimg p{
     margin-left: 10px;
+    font-size: 20px;
 }
 .map{
-    margin-top: 25vh;
-    height: 400px;
-   
+    margin-top: 42vh;
+
     text-align: center;
     padding: auto;
 }
 
-.blog{
+#blog{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 90px;
 }
 .blogcd{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 40px;
 }
 .blog h1{
     text-align: center;
@@ -425,14 +452,14 @@ form h4{
    text-align: center;
    margin-top: 150px;
    color: white;
-   font-size: xx-large;
+   font-size: 60px;
    font-weight: bolder;
 }
 .aprilvh h3{
     text-align: center;
     margin-top: 150px;
     color: white;
-    font-size: xx-large;
+    font-size: 60px;
     font-weight: bolder;
 
  }
@@ -440,7 +467,7 @@ form h4{
     text-align: center;
     margin-top: 150px;
     color: white;
-    font-size: xx-large;
+    font-size: 60px;
     font-weight: bolder;
  }
 
@@ -463,7 +490,7 @@ form h4{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    
+    margin-top: 30px;
     width: 100%;
     
  }
@@ -483,10 +510,17 @@ form h4{
      flex-direction: column;
      justify-content: space-between;
      background-color: rgb(161, 158, 158);
-     padding: 20px;
-     margin-top: 60px;
-     width: 100%;
+     padding: 3px;
      
+     margin-right: 180px;
+     width: 100%;
+     margin-top: 90px;
+     
+ }
+ footer a{
+     text-decoration: none ;
+     color: black;
+     cursor: pointer;
  }
 
  .haut{
@@ -496,7 +530,7 @@ form h4{
     
  }
  .haut h6{
-     font-size: large;
+     font-size: 15px;
  }
  .haut h5{
     font-size: x-large;
@@ -589,6 +623,26 @@ form h4{
 }
 
 @media all and  (max-width: 1280px){
+  
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    font-family: 14px;
+    background-color: rgb(162, 162, 252);
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px;
+    opacity: 0.7;
+}
+nav{
+   transform: rotate(-90deg);
+   position: absolute;
+   left: -280px;
+   bottom: 120px;
   
 }
 
