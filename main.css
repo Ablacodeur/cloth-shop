@@ -13,11 +13,46 @@ body{
 header{
    
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
    
     margin-top: 5px;
 }
+.headerr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*barre de navigation*/
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    font-family: 14px;
+    background-color: rgb(176, 218, 250);
+    border-radius: 5px;
+    font-size: 25px;
+    width: 1000px;
+    margin: 110px;
+    padding-left: 10px;
+    opacity: 0.2px;
+    color: white;
+     
+}
+
+
+nav{
+  
+   bottom: 300px;
+   background-color: rgb(247, 245, 245);
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
 .logo img{
    
     height: 35vh;
@@ -28,16 +63,17 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 69%;
-    margin-right: -10px;
+    margin-right: 60px; 
+    width: 68%; 
+   
+  
 }
 .enter span{
     font-size: 80px;
    
 }
 .enter h3{
-    font-size: 30px;
-   
+    font-size: 30px; 
 }
 
 .search{
@@ -50,6 +86,7 @@ header{
     background: none;
     border: none;
     width: 200px;
+    margin: 60px;
 }
 .search form{
     background-color: whitesmoke;
@@ -630,25 +667,6 @@ form h4{
 }
 
 
-
-nav a{
-    text-decoration: none;
-    color: black;
-    padding-right: 20px;
-    font-family: 14px;
-    background-color: rgb(162, 162, 252);
-    border-radius: 5px;
-    font-size: 25px;
-    padding: 10px;
-    opacity: 0.7;
-}
-nav{
-   transform: rotate(-90deg);
-   position: absolute;
-   left: -250px;
-   bottom: 300px;
-  
-}
 
 @media screen and (max-width: 1440px){
     nav{
