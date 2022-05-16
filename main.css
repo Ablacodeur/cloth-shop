@@ -650,11 +650,37 @@ nav{
   
 }
 
-@media screen and (max-width: 1240px){
-   
+@media screen and (max-width: 1440px){
+    nav{
+        bottom: -140px;
+        left: -280px;
+    }
     .search span{
-        width: 100px;
+        width: 130px;
+        font-size: 50px;
+        padding: 0px;
+    }
+    .search h3{
         font-size: 30px;
+    }
+    
+    .search button{
+    width: 150px;
+   }
+   .enter{
+       width: 58%;
+   }
+
+}
+
+@media screen and (max-width: 1240px){
+    nav{
+        bottom: -180px;
+        left: -280px;
+    }
+    .search span{
+        width: 130px;
+        font-size: 50px;
         padding: 0px;
     }
     .search h3{
@@ -662,10 +688,12 @@ nav{
     }
     
     .search button{
-    width: 100px;
+    width: 130px;
+    margin: 3px;
+    padding: 15px;
    }
    .enter{
-       width: 55%;
+       width: 65%;
    }
    .storby{
        width: 60%;
@@ -680,10 +708,7 @@ nav{
        align-items: center;
        margin-top: 30px;
    }
-   nav{
-    bottom: 180px;
-    left: -210px;
-}
+  
 .whyme{
     align-items: center;
 }
@@ -766,7 +791,14 @@ nav{
     border-radius: 10px;
     margin-top: 20px;
 }
+.imghome1{
+    width: 60%;
 }
+.secondshow{
+    margin-top: 150px;
+}
+}
+
 @media screen and (max-width: 768px){
     body{
         background-image: url("logo/haoran-qo-sT5YFEox8TE-unsplash\ 1.png");
@@ -775,6 +807,8 @@ nav{
         background-position: center;
         background-size: 100%;
         color: white;
+        text-align: center;
+        margin: 0,auto;
     }
     .imghome2{
         display: none;
@@ -783,7 +817,8 @@ nav{
     .imghome1{
         opacity: 0.3;
         width: auto;
-        height: 800px;
+        height: 1000px;
+       
     }
 
     .storby{
@@ -844,6 +879,7 @@ nav{
     font-size: 30px; 
    
 }
+
 
 }
 
