@@ -31,14 +31,13 @@ nav a{
     color: black;
     padding-right: 20px;
     font-family: 14px;
-    
+    color: rgb(143, 169, 196);
     border-radius: 5px;
     font-size: 25px;
     width: 1000px;
     margin: 110px;
     padding-left: 10px;
-    
-    
+  
 }
 
 
@@ -52,10 +51,7 @@ nav{
    box-shadow: 2px 4px 0 rgb(192, 184, 180) ;
    margin-bottom: 20px;
    
-   
 }
-
-
 .logo img{
    
     height: 35vh;
@@ -669,7 +665,15 @@ form h4{
     cursor: pointer;
 }
 
-
+@media screen and (max-width: 2200px){
+    nav a{
+        
+        font-size: 18px;
+        width: 70%;
+        margin: 120px;
+        
+    } 
+}
 
 @media screen and (max-width: 1440px){
     
@@ -694,7 +698,7 @@ form h4{
     }
     
     .search button{
-    width: 60px;
+        width: 60px;
    }
    .enter{
        width: 60%;
@@ -703,27 +707,38 @@ form h4{
 
 }
 
-@media screen and (max-width: 1240px){
-    nav{
-        bottom: -180px;
-        left: -280px;
+@media screen and (max-width: 1997px){
+    nav a{
+      
+        font-size: 18px;
+        width: 80px;
+        margin: 25px;
+        padding-left: 10px;
+       
+    }
+
+    .logo img{
+        height: 70%;
+        width: 70%;
     }
     .search span{
-        width: 130px;
+        width: 150px;
         font-size: 50px;
         padding: 0px;
     }
     .search h3{
         font-size: 20px;
+        margin-right: 20px;
     }
     
     .search button{
-    width: 130px;
-    margin: 3px;
-    padding: 15px;
+        width: 100px;
+        margin: 10px;
+        padding: 15px;
    }
    .enter{
-       width: 65%;
+       width: 62%;
+       margin-left: 15px;
    }
    .storby{
        width: 60%;
@@ -827,87 +842,72 @@ form h4{
 .secondshow{
     margin-top: 150px;
 }
-}
 
-@media screen and (max-width: 768px){
-    body{
-        background-image: url("logo/haoran-qo-sT5YFEox8TE-unsplash\ 1.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: 100%;
-        color: white;
-        text-align: center;
-        margin: 0,auto;
+@media screen and (max-width: 777px){
+
+    .nav{
+       
+      background-color: black;
+       
+    }  
+   
+
+    .search span{
+        width: 40px;
+        font-size: 60px;
+        padding: 20px;
     }
-    .imghome2{
-        display: none;
+    .search h3{
+        font-size: 10px;
+        margin-left: 50px;
+    }
+    
+    .search button{
+        width: 70px;
+        margin: 20px;
+   }
+   .enter{
+       width: 60%;
+       margin-top: -40px;
+   }
+    
+    .image{
+        width: 350px;
+        height:400px;
+    }
+    .april{
+        width: 200px;
+        height: 300px;
+        
+       
+    }
+    .aprilvh{
+        width: 200px;
+        height: 300px;
+       
+    }
+    .march{
+        width: 200px;
+        height: 300px;
         
     }
-    .imghome1{
-        opacity: 0.3;
-        width: auto;
-        height: 1000px;
-       
-    }
-
-    .storby{
-        width: 80%;
-        align-items: center;
+    .april h3{
         margin-top: 30px;
-        margin-bottom: 20px;
-       
-    }
-    .drop button{
-        font-size: 15px;
-        padding: 3px;
+        font-size: 30px;
         font-weight: bold;
-        background: none;
-        color: white;
-    }
-    .items {
-        display: none;
-    }
-    nav{
-     bottom: -180px;
-     left: -210px;
- }
- nav a{
-     background-color: white;
-     opacity: 1;
- }
- .image img{
-     height: 300px;
- }
- .secondshow{
-     margin-top: -20px;
- }
- .wordt{
-     opacity: 0.3;
-     align-items: center;
-     width: 100%;
- }
- .tendimg{
-     display: none;
- }
-.cardt,.cardimg{
-    background-color: black;
-    box-shadow: none;
-    
-}
-.cardt{
-    width: 150px;
-}
-.cardimg{
-    width: 190px ;
-}
-.april,.aprilvh,.march{
-    width: 200px; 
-   
-}
-.april h3,.aprilvh h3,.march h3{
-    font-size: 30px; 
-   
+     }
+     .aprilvh h3{
+        margin-top: 30px;
+         font-size: 30px;
+         font-weight: bold;
+     
+      }
+      .march h3{
+        margin-top: 30px;
+         font-size: 30px;
+         font-weight: bold;
+      }
+
 }
 
 
@@ -916,22 +916,62 @@ form h4{
 
 @media screen and (max-width: 428px){
     body{
-        background-image: url("logo/haoran-qo-sT5YFEox8TE-unsplash\ 1.png");
+      
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
         background-size: 100%;
         color: white;
     }
-    .imghome2{
+    .imghome1{
         display: none;
         
     }
-    .imghome1{
-        opacity: 0.3;
-        width: auto;
-        height: 600px;
+    
+    .home img{
+        height: 500px ;
+        width: 100%;
     }
+    nav{
+        display: none;
+    }
+    .enter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10px;
+        width: 20%; 
+       
+      
+    }
+    .enter span{
+        font-size: 30px;
+        margin-left: -30px;
+        padding: 0px;
+       
+    }
+    .enter h3{
+       display: none; 
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+    }
+    .search button{
+        background: none;
+        border: none;
+        width: 50px;
+        padding: 0px;
+        
+    }
+    .logo img{
+        width: 200px;
+        height: 300px;
+    }
+    
 
     .storby{
         width: 100%;
@@ -981,7 +1021,7 @@ form h4{
     background-color: black;
     box-shadow: none;
     
-}
+  }
 .cardt{
     width: 150px;
 }
@@ -998,7 +1038,7 @@ form h4{
 }
 .firstshow{
     flex-direction: column;
-    
+     
 }
 .image{
     margin-left: 170px;
@@ -1007,8 +1047,13 @@ form h4{
     flex-direction: column;
 }
 .firstshow img{
-    margin-top: 250px;
+    margin-top: 350px;
 
+}
+#clotheshow{
+    margin-top: -500px;
+    
+    align-items: center;
 }
 
 }
