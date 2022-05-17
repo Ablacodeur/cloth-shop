@@ -31,15 +31,14 @@ nav a{
     color: black;
     padding-right: 20px;
     font-family: 14px;
-    background-color: rgb(176, 218, 250);
+    
     border-radius: 5px;
     font-size: 25px;
     width: 1000px;
     margin: 110px;
     padding-left: 10px;
-    opacity: 0.2px;
-    color: white;
-     
+    
+    
 }
 
 
@@ -49,6 +48,10 @@ nav{
    background-color: rgb(247, 245, 245);
    justify-content: center;
    align-items: center;
+   border-radius: 0px 0px 20px 20px;
+   box-shadow: 2px 4px 0 rgb(192, 184, 180) ;
+   margin-bottom: 20px;
+   
    
 }
 
@@ -669,24 +672,33 @@ form h4{
 
 
 @media screen and (max-width: 1440px){
-    nav{
-        bottom: -140px;
-        left: -280px;
+    
+    nav a{
+        
+        font-size: 18px;
+        width: 400px;
+        margin: 110px;
+        padding-left: 10px;
+        margin: 50px;
+      
     }
+
     .search span{
-        width: 130px;
-        font-size: 50px;
-        padding: 0px;
+        width: 40px;
+        font-size: 60px;
+        padding: 50px;
     }
     .search h3{
-        font-size: 30px;
+        font-size: 20px;
+        margin-left: 70PX;
     }
     
     .search button{
-    width: 150px;
+    width: 60px;
    }
    .enter{
-       width: 58%;
+       width: 60%;
+       margin-top: -70px;
    }
 
 }
