@@ -17,6 +17,9 @@ header{
     justify-content: space-between;
    
     margin-top: 5px;
+    background-attachment: fixed;
+   z-index: 5;
+   
 }
 .headerr{
     display: flex;
@@ -843,15 +846,11 @@ form h4{
     margin-top: 150px;
 }
 
+}
+
 @media screen and (max-width: 777px){
-
-    .nav{
-       
-      background-color: black;
-       
-    }  
-   
-
+    
+    
     .search span{
         width: 40px;
         font-size: 60px;
@@ -911,150 +910,193 @@ form h4{
 }
 
 
-}
 
 
-@media screen and (max-width: 428px){
-    body{
-      
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: 100%;
-        color: white;
-    }
-    .imghome1{
-        display: none;
-        
-    }
+
+@media screen and (max-width: 470px){
     
     .home img{
-        height: 500px ;
         width: 100%;
-    }
-    nav{
-        display: none;
-    }
-    .enter{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-top: 10px;
-        width: 20%; 
-       
-      
-    }
-    .enter span{
-        font-size: 30px;
-        margin-left: -30px;
-        padding: 0px;
-       
-    }
-    .enter h3{
-       display: none; 
-    }
-    
-    .search{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        position: relative;
-    }
-    .search button{
-        background: none;
-        border: none;
-        width: 50px;
-        padding: 0px;
-        
+        height: 80%;
     }
     .logo img{
-        width: 200px;
-        height: 300px;
+        width: 70%;
+        height: 70%;
     }
-    
-
-    .storby{
-        width: 100%;
-        align-items: center;
-        margin-top: 250px;
-        margin-bottom: 20px;
+    .enter span{
+        
+        font-size: 15px;
+        margin: 0px;
+        margin-left: 0px;
        
     }
-    .drop button{
-        font-size: 15px;
-        padding: 20px;
-        margin: 10px;
-        font-weight: bold;
-        background: none;
-        color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-
+    .enter button{
+        width: -100%;
+        margin: 0px;
+        margin-top: 10px;
     }
-    .items {
-        display: none;
+    .enter h3{
+        margin-left: 30px;
+        margin-top: -10px;
     }
     nav{
-     bottom: -180px;
-     left: -210px;
- }
- nav a{
-     background-color: white;
-     opacity: 1;
- }
- .image img{
-     height: 500px;
- }
- .secondshow{
-     margin-top: -20px;
- }
- .wordt{
-     opacity: 0.3;
-     align-items: center;
-     width: 100%;
- }
- .tendimg{
-     display: none;
- }
-.cardt,.cardimg{
-    background-color: black;
-    box-shadow: none;
+        background: none;
+        box-shadow: none;
+        height: 50px;
+        background-color: rgb(99, 168, 214);
+        border-radius: 0;
+    }
+    nav a{
+        font-size: 10px;
+        margin: 0px;
+        padding: 5px;
+        margin-top: -50px;
+        color: black;
+    }
+    .items{
+        display: none;
+    }
+    .storby{
+        margin: 2px;
+        width: 100%;
+       
+        padding: 0px;
+        font-weight: 10px;
+    }
+    .drop{
+        font-size: 10px;
+        font-weight: normal;
+        padding: 0px;
+        margin: 0px;
+    }
+    .image{
+      display: flex;
+      flex-wrap: wrap;
+      height: 150px;
+      
+    }
+    .image p{
+        font-size: 10px;
+    }
+    .cards{
+        flex-direction: column;
+       
+    }
+    .rond{
+        width: 80%;
+        
+      
+    }
+    .rond span{
+        margin-left: 25px;
+    }
+    .cards p{
+       margin-left: -30px;
+    }
     
-  }
-.cardt{
-    width: 150px;
-}
-.cardimg{
-    width: 190px ;
-}
-.april,.aprilvh,.march{
-    width: 200px; 
-   
-}
-.april h3,.aprilvh h3,.march h3{
-    font-size: 30px; 
-   
-}
-.firstshow{
-    flex-direction: column;
+    h1{
+        font-size: medium;
+    }
+    .cardts{
+        flex-direction: column;
+        flex-wrap: wrap;
+       
+        align-items: center;
+        justify-content: space-between;
+      
+    }
+    cardt{
+      margin-bottom: 200PX;
+      width: 40px;
+      margin: 30px;
      
-}
-.image{
-    margin-left: 170px;
-}
-.secondshow{
-    flex-direction: column;
-}
-.firstshow img{
-    margin-top: 350px;
+    }
+    .cardimg{
+        margin-top: -40px;
+    }
 
-}
-#clotheshow{
-    margin-top: -500px;
+
+    .cardt span{
+        display: none;
+    }
+    .map{
+        margin-top: 700px;
+    }
+    .wordt img{
+        display: none;
+    }
+    .april{
+        width: 100px;
+        height: 150px;
+        
+    }
+    .aprilvh{
+        width: 100px;
+        height: 150px;
+      
+    }
+    .march{
+        width: 100px;
+        height: 150px;
+        
+    }
+
+    .april h3{
+       font-size:small;
+       margin-top: -20px;
+        
+    }
+    .aprilvh h3{
+        font-size: medium;
+        margin-top: -20px;
+    }
+    .march h3{
+        
+        font-size: medium;
+        margin-top: -20px;
+    }
+    .partener{
+        flex-wrap: wrap;
+    }
+
+    .haut h5{
+        font-size: medium;
+    }
+    .haut{
+        padding: 0px;
+        justify-content: center;
+        margin: -10px;
+    }
+    .logconer img{
+        width: 100px;
+        height: 100px;
+        margin-top: -20px;
+        margin-left: -50px;
+    }
     
-    align-items: center;
-}
-
+    .haut {
+        flex-direction: column;
+        align-items: center;
+    }
+    .newsletters{
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+    .socialmedia i{
+        font-size: 20px;
+    }
+    .information{
+        padding: 50px;
+        margin-left: 40px;
+        
+    }
+    .newsletters{
+        padding: 50px;
+        margin-left: 40px;
+        
+    }
+    .newsletters h5{
+        margin-left: 10px;
+    }
 }
 
