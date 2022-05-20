@@ -32,15 +32,12 @@ header{
 nav a{
     text-decoration: none;
     color: black;
-    padding-right: 20px;
+    margin: 10vh;
     font-family: 14px;
     color: rgb(143, 169, 196);
     border-radius: 5px;
     font-size: 25px;
-    width: 1000px;
-    margin: 110px;
-    padding-left: 10px;
-  
+    
 }
 
 
@@ -48,17 +45,19 @@ nav{
   
    bottom: 300px;
    background-color: rgb(247, 245, 245);
-   justify-content: center;
-   align-items: center;
+   
+   justify-content: space-between;
+   display: flex;
+   flex-direction: row;
    border-radius: 0px 0px 20px 20px;
    box-shadow: 2px 4px 0 rgb(192, 184, 180) ;
    margin-bottom: 20px;
-   
+   width: 100%;
 }
 .logo img{
    
-    height: 35vh;
-    width: 35vh;
+    height: 25vh;
+    width: 25vh;
 }
 
 .enter{
@@ -66,8 +65,6 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     margin-right: 60px; 
-    width: 68%; 
-   
   
 }
 .enter span{
@@ -914,7 +911,7 @@ form h4{
 
 
 
-@media screen and (max-width: 650px){
+@media (min-width: 300px) and (max-width: 720px){
     
     .home img{
         width: 100%;
@@ -926,9 +923,13 @@ form h4{
     }
     .enter span{
         
-        font-size: 15px;
+        font-size: 10px;
         margin: 0px;
         margin-left: 0px;
+    }
+    .search button{
+        
+        width: 55px;
        
     }
     .enter button{
@@ -1002,15 +1003,14 @@ form h4{
         flex-direction: column;
         flex-wrap: wrap;
        
+       
         align-items: center;
         justify-content: space-between;
       
     }
-    cardt{
-      margin-bottom: 200PX;
-      width: 40px;
-      margin: 30px;
-     
+    .cardt{
+     margin-bottom: 29px;
+      width: 155px;
     }
     .cardimg{
         margin-top: -40px;
@@ -1049,7 +1049,7 @@ form h4{
     }
     .aprilvh h3{
         font-size: medium;
-        margin-top: -20px;
+           margin-top: -20px;
     }
     .march h3{
         
