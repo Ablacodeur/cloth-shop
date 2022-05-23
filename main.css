@@ -1,4 +1,7 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 body{
 
   box-sizing: border-box;
@@ -43,11 +46,9 @@ nav a{
 
 
 nav{
-  
-   bottom: 300px;
    background-color: rgb(247, 245, 245);
    
-   justify-content: space-between;
+   justify-content: center;
    display: flex;
    flex-direction: row;
    border-radius: 0px 0px 20px 20px;
