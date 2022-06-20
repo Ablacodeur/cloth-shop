@@ -1,6 +1,12 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    font-display: swap;
+  }
 
 body{
 
@@ -118,6 +124,7 @@ form h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: brown;
     font-style: oblique;
+    font-display: swap;
 }
 
 .search p, .search form{
@@ -244,7 +251,7 @@ form h4{
 .image{
     position: relative;
     width: 350px;
-    height:600px;
+    height:450px;
     transform-style: preserve-3d;
     transition: none 1s ease-in;
  
@@ -298,6 +305,7 @@ form h4{
     font-family: 'Great Vibes', cursive;
     font-size: xx-large;
     font-weight: 1200px;
+    font-display: swap;
 }
 .whyme{
     display: flex;
