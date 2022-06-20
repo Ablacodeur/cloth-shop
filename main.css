@@ -47,13 +47,11 @@ nav a{
     color: rgb(143, 169, 196);
     border-radius: 5px;
     font-size: 25px;
-    
 }
 
 
 nav{
    background-color: rgb(247, 245, 245);
-   
    justify-content: center;
    display: flex;
    flex-direction: row;
@@ -61,6 +59,13 @@ nav{
    box-shadow: 2px 4px 0 rgb(192, 184, 180) ;
    margin-bottom: 20px;
    width: 100%;
+}
+nav li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
 }
 .logo img{
    
@@ -180,12 +185,7 @@ form h4{
     height: 1000px ;
     width: 100%;
 }
-.imghome1{
-    animation-duration: 2s;
-    animation-name: slidein;
-    animation-iteration-count: 1;
-    
-}
+
 
 @keyframes slidein {
     from {
@@ -496,14 +496,14 @@ form h4{
     margin-top: 10px;
     font-weight: bold;
 }
-.april h3{
+.april h5{
    text-align: center;
    margin-top: 150px;
    color: white;
    font-size: 60px;
    font-weight: bolder;
 }
-.aprilvh h3{
+.aprilvh h5{
     text-align: center;
     margin-top: 150px;
     color: white;
@@ -511,7 +511,7 @@ form h4{
     font-weight: bolder;
 
  }
- .march h3{
+ .march h5{
     text-align: center;
     margin-top: 150px;
     color: white;
@@ -519,7 +519,7 @@ form h4{
     font-weight: bolder;
  }
 
- .blogcd h3{
+ .blogcd h5{
     animation-duration: 5s;
     animation-name: slidein;
     animation-iteration-count: infinite;
